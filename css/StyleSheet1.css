@@ -1,0 +1,294 @@
+﻿/*區塊*/
+#bmi_ca_area{
+    background: #424242;
+    width: 1024px;
+    height:300px;
+    margin: 0 auto;
+    position:relative;
+}
+#bmi_list{
+    width: 1024px;
+    height:600px;
+    margin: 0 auto;
+    position:relative;
+}
+#foot{
+    background: #FFD366;
+    width: 1024px;
+    height:90px;
+    margin: 0 auto;
+    position:relative;
+}
+/*圖片*/
+#bmi_logo{
+    position:absolute;
+    top:92px;
+    left:173px;
+    width: 117px;
+    height:117px;
+}
+#reset_logo{
+    border: 3px solid #424242;
+    width: 30px;
+    height:30px;
+    border-radius: 30px;
+    position:absolute;
+    top:77px;
+    left:75px;
+}
+#bmi_logo_foot{
+    position:absolute;
+    top:18px;
+    left:485px;
+    width: 55px;
+    height:55px;
+    /*濾鏡*/
+    filter: invert(23%) sepia(15%) saturate(22%) hue-rotate(315deg) brightness(93%) contrast(88%);
+}
+.logo_green{
+    background: #86D73F;/*理想*/
+}
+.logo_blue{
+    background: #31BAF9;/*過輕*/
+}
+.logo_orange1{
+    background: #FF982D;/*過重*/
+}
+.logo_orange2{
+    background: #FF6C02;/*輕度肥胖*/
+}
+.logo_orange3{
+    background: #FF6C02;/*中度肥胖*/
+}
+.logo_red{
+    background: #FF1200;/*重度肥胖*/
+}
+/*位置*/
+#bmi_ca_cm{
+    position:absolute;
+    top:74px;
+    left:387px;
+}
+#bmi_ca_kg {
+    position: absolute;
+    top: 162px;
+    left: 387px;
+}
+#people_height{
+    position: absolute;
+    top: 99px;
+    left: 387px;
+}
+#people_weight {
+    position: absolute;
+    top: 187px;
+    left: 387px;
+}
+#bmi_ca_btn{
+    position: absolute;
+    top: 92px;
+    left: 690px;
+}
+.bmi_ca_bmi_beford{
+    position: absolute;
+    top: 45px;
+    left: 20.5px;
+}
+.bmi_ca_bmi_result{
+    position: absolute;
+    top: 38px;
+    left: 15px;
+}
+#txt_bmi{
+    position: absolute;
+    top: 74px;
+    left: 45px;
+}
+#bmi_ca_state{
+    position: absolute;
+    font-family: SFNSDisplay;
+    font-size: 32px;
+    top: 137px;
+    left: 829px;
+}
+#bmi_list_title{
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: #424242;
+    width: 96px;
+    height:24px;
+    line-height:28px;
+    top: 48px;
+    left: 464px;
+    position:absolute;
+}
+/*按鈕*/
+.btn{
+    border-radius: 120px;
+    width: 120px;
+    height:120px;
+}
+/*看結果*/
+.btn_beford{
+    background: #FFD366;
+    font-family: PingFangTC-Regular;
+    font-size: 24px;
+    color: #424242;
+    line-height:25px;
+}
+/*計算結果*/
+.btn_result{
+    border: 6px solid;
+    background: #424242;
+    font-family: SFNSDisplay;
+    font-size: 32px;
+    line-height:38px;
+}
+.none{
+    display:none;
+}
+.btn_green{
+    color: #86D73F;/*理想*/
+}
+.btn_blue{
+    color: #31BAF9;/*過輕*/
+}
+.btn_orange1{
+    color: #FF982D;/*過重*/
+}
+.btn_orange2{
+    color: #FF6C02;/*輕度肥胖*/
+}
+.btn_orange3{
+    color: #FF6C02;/*中度肥胖*/
+}
+.btn_red{
+    color: #FF1200;/*重度肥胖*/
+}
+/*文字*/
+.bmi_ca_title{
+    background: #424242;
+    font-family: AppleSystemUIFont;
+    font-size: 18px;
+    color: #FFD366;
+    width: 66px;
+    height:18px;
+    line-height:21px;
+}
+.text{
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    width: 250px;
+    height:40px;
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: rgba(255,255,255,0.50);
+}
+.text_btn_bmi{
+    font-family: AppleSystemUIFont;
+    font-size: 14px;
+    line-height:17px;
+}
+.list_text_big{
+    height:20px;
+    font-family: SFNSDisplay;
+    font-size: 20px;
+    color: #4A4A4A;
+    line-height:23px;
+    position:absolute;
+}
+.list_text_small{
+    height:22px;
+    font-family: AppleSystemUIFont;
+    font-size: 12px;
+    color: #4A4A4A;
+    line-height:15px;
+    position:absolute;
+}
+/*清單位置*/
+.bs-callout {
+    background: #FFFFFF;
+    border: 1px solid #eee;
+    border-left-width: 7px;
+    width: 624px;
+    height:62px;
+    position:absolute;
+}
+.bs-callout-green{
+    border-left-color: #86D73F;/*理想*/
+}
+.bs-callout-blue{
+    border-left-color: #31BAF9;/*過輕*/
+}
+.bs-callout-orange1{
+    border-left-color: #FF982D;/*過重*/
+}
+.bs-callout-orange2{
+    border-left-color: #FF6C02;/*輕度肥胖*/
+}
+.bs-callout-orange3{
+    border-left-color: #FF6C02;/*中度肥胖*/
+}
+.bs-callout-red{
+    border-left-color: #FF1200;/*重度肥胖*/
+}
+.bs-callout-left{
+    left:200px;
+}
+.bs-callout-top1{
+    top:108px;
+}
+.bs-callout-top2{
+    top:186px;
+}
+.bs-callout-top3{
+    top:264px;
+}
+.bs-callout-top4{
+    top:342px;
+}
+.bs-callout-top5{
+    top:420px;
+}
+.bs-callout-top6{
+    top:498px;
+}
+.list_text_state{
+    left:19px;
+    width: 80px;
+}
+.list_text_bmi1{
+    left:129px;
+    width: 22px;
+}
+.list_text_bmi2{
+    left:158px;
+    width: 52px;
+}
+.list_text_weight1{
+    left:252px;
+    width: 39px;
+}
+.list_text_weight2{
+    left:298px;
+    width: 46px;
+}
+.list_text_height1{
+    left:386px;
+    width: 36px;
+}
+.list_text_height2{
+    left:429px;
+    width: 64px;
+}
+.list_text_time{
+    left:545px;
+    width: 68px;
+}
+.list_text_big_top{
+    top:21px;
+}
+.list_text_small_top{
+    top:25px;
+}
